@@ -1,0 +1,25 @@
+{
+  "name": "fnvalidator",
+  "version": "1.0.0",
+  "description": "fnValidator for austrian commercialRegisterNumbers",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michabremicker/fnvalidator.git"
+  },
+  "author": "mbrem <mbrem@protonmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michabremicker/fnvalidator/issues"
+  },
+  "homepage": "https://github.com/michabremicker/fnvalidator#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1",
+    "typescript": "^3.7.5"
+  }
+}
