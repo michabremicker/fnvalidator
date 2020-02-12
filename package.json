@@ -1,9 +1,9 @@
 {
-  "name": "fnvalidator",
+  "name": "@mbremi/fnvalidator",
   "version": "1.0.0",
   "description": "fnValidator for austrian commercialRegisterNumbers",
   "main": "dist/index.js",
-  "types" : "dist/index.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "mocha --reporter spec"
