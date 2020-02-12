@@ -1,6 +1,6 @@
 'use strict';
 const expect = require('chai').expect;
-const index = require('../lib/index.js');
+const index = require('../dist/index.js');
 
 describe('isValidFnTest', () => {
     it('should validate valid FN-Numbers', () => {
