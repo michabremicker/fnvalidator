@@ -1,7 +1,7 @@
 /**
  * @Method: Returns boolean isValid for FN Number.
  * @Param {string}
- * @Return {string}
+ * @Return {boolean}
  */
 export function isValidFnNumber(value: string): boolean {
     const commercialRegisterNumberKeys: Map<number, string> = new Map([

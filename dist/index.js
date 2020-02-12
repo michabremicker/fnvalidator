@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * @Method: Returns boolean isValid for FN Number.
  * @Param {string}
- * @Return {string}
+ * @Return {boolean}
  */
 function isValidFnNumber(value) {
     var commercialRegisterNumberKeys = new Map([
