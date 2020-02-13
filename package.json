@@ -1,6 +1,6 @@
 {
   "name": "@mbremi/fnvalidator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "fnValidator for austrian commercialRegisterNumbers",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
