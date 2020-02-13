@@ -30,7 +30,7 @@ export function isValidFnNumber(value: string): boolean {
         .replace(/\s/g, '')
         .replace('FN', ''));
 
-    if (registerNumbers.length < 7) {
+    if (registerNumbers.length < 6) {
         registerNumbers.unshift('0');
     }
 

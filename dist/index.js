@@ -30,7 +30,7 @@ function isValidFnNumber(value) {
     var registerNumbers = Array.from(value.substr(0, value.length - 1)
         .replace(/\s/g, '')
         .replace('FN', ''));
-    if (registerNumbers.length < 7) {
+    if (registerNumbers.length < 6) {
         registerNumbers.unshift('0');
     }
     var sum = 0;
